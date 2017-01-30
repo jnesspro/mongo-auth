@@ -1,5 +1,5 @@
-FROM mongo:3
-MAINTAINER Umputun <mongo@umputun.com>
+FROM mongo
+MAINTAINER Aleksandr Streltsov <jness.pro@gmail.com>
 
 ADD init.sh /init.sh
 RUN \
